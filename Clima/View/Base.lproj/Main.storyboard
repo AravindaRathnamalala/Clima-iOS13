@@ -33,6 +33,9 @@
                                                 </constraints>
                                                 <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <state key="normal" backgroundImage="location.circle.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="locationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6lt-3U-ZSy"/>
+                                                </connections>
                                             </button>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search" textAlignment="right" clearsOnBeginEditing="YES" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="2eh-wL-W34">
                                                 <rect key="frame" x="50" y="0.0" width="274" height="40"/>
@@ -128,7 +131,7 @@
         <image name="magnifyingglass" catalog="system" width="64" height="56"/>
         <image name="sun.max" catalog="system" width="64" height="62"/>
         <namedColor name="myWeatherColor">
-            <color red="0.11528960620000001" green="0.26242947579999998" blue="0.28235983850000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.11500000208616257" green="0.26199999451637268" blue="0.28200000524520874" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
     </resources>
 </document>
